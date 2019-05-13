@@ -1,0 +1,13 @@
+[
+  {
+    "id": "chicagotraffic",
+    "label": "Chicago Traffic",
+    "queryType": "sample",
+    "imageUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/traffic-chicago.png",
+    "description": "Chicago traffic lanes over time.",
+    "size": 8192,
+    "visible": true,
+    "dataUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/kepler-gl_activities-traffic-chicago.csv.merged.csv",
+    "configUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/chicago-traffic-config.json"
+  }
+]
