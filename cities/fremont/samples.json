@@ -9,5 +9,16 @@
     "visible": true,
     "dataUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/kepler-gl_activities-traffic-chicago.csv.merged.csv",
     "configUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/chicago-traffic-config.json"
+  },
+  {
+    "id": "fa3kfuvar",
+    "label": "Fremont Traffic Reports",
+    "queryType": "sample",
+    "imageUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/traffic-chicago.png",
+    "description": "Fremont all traffic reports over time.",
+    "size": 14192,
+    "visible": true,
+    "dataUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/kepler-gl_reports.csv.csv",
+    "configUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/keplergl-reports-total-config.json"
   }
 ]
