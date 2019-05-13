@@ -20,5 +20,16 @@
     "visible": true,
     "dataUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/kepler-gl_reports.csv.csv",
     "configUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/keplergl-reports-total-config.json"
+  },
+  {
+    "id": "al93xqcy6",
+    "label": "Fremont Traffic Jams",
+    "queryType": "sample",
+    "imageUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/reports-trafficJam.png",
+    "description": "Fremont Traffic Jam reports over time.",
+    "size": 7292,
+    "visible": true,
+    "dataUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/kepler-gl_reports-trafficJam.csv.csv",
+    "configUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/keplergl-trafficJam-config.json"
   }
 ]
