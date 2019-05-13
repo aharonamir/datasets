@@ -4,13 +4,13 @@
     "visState": {
       "filters": [
         {
-          "dataId": "al93xqcy6",
-          "id": "ye6m7o33n",
+          "dataId": "8vbkmcofp",
+          "id": "pma34m40o",
           "name": "creationTime",
           "type": "timeRange",
           "value": [
-            1557450065779.8289,
-            1557455179779.8286
+            1557326864556.9404,
+            1557333001556.9404
           ],
           "enlarged": true,
           "plotType": "histogram",
@@ -19,15 +19,15 @@
       ],
       "layers": [
         {
-          "id": "69vl8kv",
-          "type": "cluster",
+          "id": "ud97v2n",
+          "type": "heatmap",
           "config": {
-            "dataId": "al93xqcy6",
-            "label": "trafficJam",
+            "dataId": "8vbkmcofp",
+            "label": "heatmap",
             "color": [
-              241,
-              92,
-              23
+              23,
+              184,
+              190
             ],
             "columns": {
               "lat": "metaData.loc.1",
@@ -36,7 +36,6 @@
             "isVisible": true,
             "visConfig": {
               "opacity": 0.8,
-              "clusterRadius": 40,
               "colorRange": {
                 "name": "Global Warming",
                 "type": "sequential",
@@ -50,29 +49,39 @@
                   "#FFC300"
                 ]
               },
-              "radiusRange": [
-                1,
-                40
+              "radius": 20
+            },
+            "textLabel": {
+              "field": null,
+              "color": [
+                255,
+                255,
+                255
               ],
-              "hi-precision": false,
-              "colorAggregation": "count"
+              "size": 50,
+              "offset": [
+                0,
+                0
+              ],
+              "anchor": "middle"
             }
           },
           "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile"
+            "weightField": null,
+            "weightScale": "linear"
           }
         }
       ],
       "interactionConfig": {
         "tooltip": {
           "fieldsToShow": {
-            "al93xqcy6": [
+            "8vbkmcofp": [
               "creationTime",
-              "type"
+              "metaData",
+              "metaData.loc.0"
             ]
           },
-          "enabled": true
+          "enabled": false
         },
         "brush": {
           "size": 0.5,
@@ -85,10 +94,10 @@
     "mapState": {
       "bearing": 24,
       "dragRotate": true,
-      "latitude": 37.50509324169831,
-      "longitude": -122.0934430168093,
+      "latitude": 37.75043,
+      "longitude": -122.34679,
       "pitch": 50,
-      "zoom": 9.715780617583103,
+      "zoom": 9,
       "isSplit": false
     },
     "mapStyle": {
@@ -100,7 +109,8 @@
         "border": false,
         "building": true,
         "water": true,
-        "land": true
+        "land": true,
+        "3d building": false
       },
       "mapStyles": {}
     }
