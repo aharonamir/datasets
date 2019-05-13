@@ -11,7 +11,7 @@
     "configUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/chicago-traffic-config.json"
   },
   {
-    "id": "fa3kfuvar",
+    "id": "s9aknbvxq",
     "label": "Fremont Traffic Reports",
     "queryType": "sample",
     "imageUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/reports-total.png",
@@ -23,7 +23,7 @@
   },
   {
     "id": "8vbkmcofp",
-    "label": "Fremont Traffic Jams",
+    "label": "Fremont Traffic Jams Heatmap",
     "queryType": "sample",
     "imageUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/reports-trafficJam.png",
     "description": "Fremont Traffic Jam reports over time.",
