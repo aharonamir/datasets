@@ -1,0 +1,128 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [
+        {
+          "dataId": "fa3kfuvar",
+          "id": "w5l2qu597",
+          "name": "creationTime",
+          "type": "timeRange",
+          "value": [
+            1557341606577.1147,
+            1557345191577.1143
+          ],
+          "enlarged": true,
+          "plotType": "histogram",
+          "yAxis": null
+        }
+      ],
+      "layers": [
+        {
+          "id": "eppny84",
+          "type": "hexagon",
+          "config": {
+            "dataId": "fa3kfuvar",
+            "label": "totalreports",
+            "color": [
+              255,
+              153,
+              31
+            ],
+            "columns": {
+              "lat": "metaData.loc.1",
+              "lng": "metaData.loc.0"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "worldUnitSize": 1,
+              "resolution": 8,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "coverage": 1,
+              "sizeRange": [
+                0,
+                500
+              ],
+              "percentile": [
+                0,
+                100
+              ],
+              "elevationPercentile": [
+                0,
+                100
+              ],
+              "elevationScale": 9.2,
+              "hi-precision": false,
+              "colorAggregation": "mode",
+              "sizeAggregation": "count",
+              "enable3d": true
+            }
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "metaData.event",
+              "type": "string"
+            },
+            "colorScale": "ordinal",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "fa3kfuvar": [
+              "creationTime",
+              "type",
+              "metaData.loc.0",
+              "metaData.event"
+            ]
+          },
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": []
+    },
+    "mapState": {
+      "bearing": 24,
+      "dragRotate": true,
+      "latitude": 37.50509324169831,
+      "longitude": -122.0934430168093,
+      "pitch": 50,
+      "zoom": 9.715780617583103,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "dark",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true
+      },
+      "mapStyles": {}
+    }
+  }
+}
