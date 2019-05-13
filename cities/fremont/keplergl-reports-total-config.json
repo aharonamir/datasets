@@ -4,13 +4,13 @@
     "visState": {
       "filters": [
         {
-          "dataId": "fa3kfuvar",
-          "id": "w5l2qu597",
+          "dataId": "s9aknbvxq",
+          "id": "1o1bxlss",
           "name": "creationTime",
           "type": "timeRange",
           "value": [
-            1557341606577.1147,
-            1557345191577.1143
+            1557437078751.4312,
+            1557445770751.4312
           ],
           "enlarged": true,
           "plotType": "histogram",
@@ -19,15 +19,15 @@
       ],
       "layers": [
         {
-          "id": "eppny84",
+          "id": "932jflm",
           "type": "hexagon",
           "config": {
-            "dataId": "fa3kfuvar",
-            "label": "totalreports",
+            "dataId": "s9aknbvxq",
+            "label": "new layer",
             "color": [
-              255,
-              153,
-              31
+              241,
+              92,
+              23
             ],
             "columns": {
               "lat": "metaData.loc.1",
@@ -64,11 +64,25 @@
                 0,
                 100
               ],
-              "elevationScale": 9.2,
+              "elevationScale": 10,
               "hi-precision": false,
               "colorAggregation": "mode",
               "sizeAggregation": "count",
               "enable3d": true
+            },
+            "textLabel": {
+              "field": null,
+              "color": [
+                255,
+                255,
+                255
+              ],
+              "size": 50,
+              "offset": [
+                0,
+                0
+              ],
+              "anchor": "middle"
             }
           },
           "visualChannels": {
@@ -85,10 +99,8 @@
       "interactionConfig": {
         "tooltip": {
           "fieldsToShow": {
-            "fa3kfuvar": [
+            "s9aknbvxq": [
               "creationTime",
-              "type",
-              "metaData.loc.0",
               "metaData.event"
             ]
           },
@@ -105,10 +117,10 @@
     "mapState": {
       "bearing": 24,
       "dragRotate": true,
-      "latitude": 37.50509324169831,
-      "longitude": -122.0934430168093,
+      "latitude": 37.75043,
+      "longitude": -122.34679,
       "pitch": 50,
-      "zoom": 9.715780617583103,
+      "zoom": 9,
       "isSplit": false
     },
     "mapStyle": {
@@ -120,7 +132,8 @@
         "border": false,
         "building": true,
         "water": true,
-        "land": true
+        "land": true,
+        "3d building": false
       },
       "mapStyles": {}
     }
