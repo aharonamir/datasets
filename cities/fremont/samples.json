@@ -14,7 +14,7 @@
     "id": "fa3kfuvar",
     "label": "Fremont Traffic Reports",
     "queryType": "sample",
-    "imageUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/traffic-chicago.png",
+    "imageUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/reports-total.png",
     "description": "Fremont all traffic reports over time.",
     "size": 14192,
     "visible": true,
@@ -22,7 +22,7 @@
     "configUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/keplergl-reports-total-config.json"
   },
   {
-    "id": "al93xqcy6",
+    "id": "8vbkmcofp",
     "label": "Fremont Traffic Jams",
     "queryType": "sample",
     "imageUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/reports-trafficJam.png",
