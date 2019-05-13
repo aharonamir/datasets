@@ -1,0 +1,108 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [
+        {
+          "dataId": "al93xqcy6",
+          "id": "ye6m7o33n",
+          "name": "creationTime",
+          "type": "timeRange",
+          "value": [
+            1557450065779.8289,
+            1557455179779.8286
+          ],
+          "enlarged": true,
+          "plotType": "histogram",
+          "yAxis": null
+        }
+      ],
+      "layers": [
+        {
+          "id": "69vl8kv",
+          "type": "cluster",
+          "config": {
+            "dataId": "al93xqcy6",
+            "label": "trafficJam",
+            "color": [
+              241,
+              92,
+              23
+            ],
+            "columns": {
+              "lat": "metaData.loc.1",
+              "lng": "metaData.loc.0"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "clusterRadius": 40,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                1,
+                40
+              ],
+              "hi-precision": false,
+              "colorAggregation": "count"
+            }
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "al93xqcy6": [
+              "creationTime",
+              "type"
+            ]
+          },
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": []
+    },
+    "mapState": {
+      "bearing": 24,
+      "dragRotate": true,
+      "latitude": 37.50509324169831,
+      "longitude": -122.0934430168093,
+      "pitch": 50,
+      "zoom": 9.715780617583103,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "dark",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true
+      },
+      "mapStyles": {}
+    }
+  }
+}
