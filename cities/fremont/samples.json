@@ -1,5 +1,16 @@
 [
   {
+    "id": "ym9ypoear",
+    "label": "Fremont Traffic",
+    "queryType": "sample",
+    "imageUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/fremont-traffic-lanes.png",
+    "description": "Fremont traffic lanes over time.",
+    "size": 17192,
+    "visible": true,
+    "dataUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/kepler-gl_activities-traffic-fremont.csv.csv",
+    "configUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/fremont-traffic-config.json"
+  },
+  {
     "id": "chicagotraffic",
     "label": "Chicago Traffic",
     "queryType": "sample",
