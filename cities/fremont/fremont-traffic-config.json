@@ -1,0 +1,127 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [
+        {
+          "dataId": "ym9ypoear",
+          "id": "iipdsxnnr",
+          "name": "creationTime",
+          "type": "timeRange",
+          "value": [
+            1558538905943.5156,
+            1558539390943.5156
+          ],
+          "enlarged": true,
+          "plotType": "histogram",
+          "yAxis": null
+        }
+      ],
+      "layers": [
+        {
+          "id": "c7xo76d",
+          "type": "line",
+          "config": {
+            "dataId": "ym9ypoear",
+            "label": "new layer",
+            "color": [
+              23,
+              184,
+              190
+            ],
+            "columns": {
+              "lat0": "metaData.loc.1",
+              "lng0": "metaData.loc.0",
+              "lat1": "metaData.toLocation.1",
+              "lng1": "metaData.toLocation.0"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.87,
+              "thickness": 2.6,
+              "colorRange": {
+                "name": "ColorBrewer Set1-3",
+                "type": "qualitative",
+                "category": "ColorBrewer",
+                "colors": [
+                  "#e41a1c",
+                  "#377eb8",
+                  "#4daf4a"
+                ],
+                "reversed": false
+              },
+              "sizeRange": [
+                0,
+                10
+              ],
+              "targetColor": null
+            },
+            "textLabel": {
+              "field": null,
+              "color": [
+                255,
+                255,
+                255
+              ],
+              "size": 50,
+              "offset": [
+                0,
+                0
+              ],
+              "anchor": "middle"
+            }
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "metaData.measures.speed",
+              "type": "integer"
+            },
+            "colorScale": "quantize",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "ym9ypoear": [
+              "creationTime",
+              "metaData.measures.speed"
+            ]
+          },
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": []
+    },
+    "mapState": {
+      "bearing": 5.466307277628033,
+      "dragRotate": true,
+      "latitude": 37.55516800010031,
+      "longitude": -122.1535515948251,
+      "pitch": 52.850241545893724,
+      "zoom": 10.328958313433667,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "dark",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "mapStyles": {}
+    }
+  }
+}
