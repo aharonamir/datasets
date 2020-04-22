@@ -42,5 +42,16 @@
     "visible": true,
     "dataUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/kepler-gl_reports-trafficJam.csv.csv",
     "configUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/keplergl-trafficJam-config.json"
+  },
+  {
+    "id": "bz1zedp0d",
+    "label": "Lubeck Accidents 2018",
+    "queryType": "sample",
+    "imageUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/kepler-gl-lubeck-accidents.png",
+    "description": "Lubeck Accidents 2018.",
+    "size": 7292,
+    "visible": true,
+    "dataUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/kepler-gl_Luebeck_roadsAccidents_2018.csv.csv",
+    "configUrl": "https://raw.githubusercontent.com/aharonamir/datasets/master/cities/fremont/keplergl-lubeck-accidents.json"
   }
 ]
