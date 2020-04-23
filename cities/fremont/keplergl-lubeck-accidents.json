@@ -1,134 +1,182 @@
 {
-	"version": "v1",
-	"config": {
-		"version": "v1",
-		"config": {
-			"visState": {
-				"filters": [{
-					"dataId": ["bz1zedp0d"],
-					"id": "du4am68jt",
-					"name": ["UWOCHENTAG"],
-					"type": "range",
-					"value": [1, 7],
-					"enlarged": false,
-					"plotType": "histogram",
-					"yAxis": null
-				}, {
-					"dataId": ["bz1zedp0d"],
-					"id": "j6jy0cm5",
-					"name": ["USTUNDE"],
-					"type": "range",
-					"value": [0, 23],
-					"enlarged": false,
-					"plotType": "histogram",
-					"yAxis": null
-				}],
-				"layers": [{
-					"id": "i3bvvnh",
-					"type": "point",
-					"config": {
-						"dataId": "bz1zedp0d",
-						"label": "accidents",
-						"color": [254, 137, 26],
-						"columns": {
-							"lat": "Y",
-							"lng": "X",
-							"altitude": null
-						},
-						"isVisible": true,
-						"visConfig": {
-							"radius": 11,
-							"fixedRadius": false,
-							"opacity": 0.8,
-							"outline": false,
-							"thickness": 2,
-							"strokeColor": null,
-							"colorRange": {
-								"name": "Global Warming",
-								"type": "sequential",
-								"category": "Uber",
-								"colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"],
-								"reversed": false
-							},
-							"strokeColorRange": {
-								"name": "Global Warming",
-								"type": "sequential",
-								"category": "Uber",
-								"colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]
-							},
-							"radiusRange": [0, 50],
-							"filled": true
-						},
-						"textLabel": [{
-							"field": null,
-							"color": [255, 255, 255],
-							"size": 18,
-							"offset": [0, 0],
-							"anchor": "start",
-							"alignment": "center"
-						}]
-					},
-					"visualChannels": {
-						"colorField": null,
-						"colorScale": "quantile",
-						"strokeColorField": null,
-						"strokeColorScale": "quantile",
-						"sizeField": null,
-						"sizeScale": "linear"
-					}
-				}],
-				"interactionConfig": {
-					"tooltip": {
-						"fieldsToShow": {
-							"bz1zedp0d": ["UMONAT", "USTUNDE", "UWOCHENTAG"]
-						},
-						"enabled": true
-					},
-					"brush": {
-						"size": 0.5,
-						"enabled": false
-					},
-					"coordinate": {
-						"enabled": false
-					}
-				},
-				"layerBlending": "normal",
-				"splitMaps": [],
-				"animationConfig": {
-					"currentTime": null,
-					"speed": 1
-				}
-			},
-			"mapState": {
-				"bearing": 0,
-				"dragRotate": false,
-				"latitude": 53.866686161835254,
-				"longitude": 10.671870680638639,
-				"pitch": 0,
-				"zoom": 11.795815662621045,
-				"isSplit": false
-			},
-			"mapStyle": {
-				"styleType": "dark",
-				"topLayerGroups": {},
-				"visibleLayerGroups": {
-					"label": true,
-					"road": true,
-					"border": false,
-					"building": true,
-					"water": true,
-					"land": true,
-					"3d building": false
-				},
-				"threeDBuildingColor": [9.665468314072013, 17.18305478057247, 31.1442867897876],
-				"mapStyles": {}
-			}
-		}
-	},
-	"info": {
-		"app": "kepler.gl",
-		"created_at": "Wed Apr 22 2020 14:58:02 GMT+0300 (Israel Daylight Time)",
-		"title": "keplergl_gn5w6j",
-		"description": ""
-	}
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [
+        {
+          "dataId": [
+            "bz1zedp0d"
+          ],
+          "id": "du4am68jt",
+          "name": [
+            "UWOCHENTAG"
+          ],
+          "type": "range",
+          "value": [
+            1,
+            7
+          ],
+          "enlarged": false,
+          "plotType": "histogram",
+          "yAxis": null
+        },
+        {
+          "dataId": [
+            "bz1zedp0d"
+          ],
+          "id": "j6jy0cm5",
+          "name": [
+            "USTUNDE"
+          ],
+          "type": "range",
+          "value": [
+            0,
+            23
+          ],
+          "enlarged": false,
+          "plotType": "histogram",
+          "yAxis": null
+        }
+      ],
+      "layers": [
+        {
+          "id": "i3bvvnh",
+          "type": "point",
+          "config": {
+            "dataId": "bz1zedp0d",
+            "label": "accidents",
+            "color": [
+              254,
+              137,
+              26
+            ],
+            "columns": {
+              "lat": "Y",
+              "lng": "X",
+              "altitude": null
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 11,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ],
+                "reversed": false
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "bz1zedp0d": [
+              "UMONAT",
+              "USTUNDE",
+              "UWOCHENTAG"
+            ]
+          },
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      }
+    },
+    "mapState": {
+      "bearing": 24,
+      "dragRotate": true,
+      "latitude": 53.859837425178945,
+      "longitude": 10.654127261192247,
+      "pitch": 50,
+      "zoom": 11.795815662621045,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "dark",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        9.665468314072013,
+        17.18305478057247,
+        31.1442867897876
+      ],
+      "mapStyles": {}
+    }
+  }
 }
